@@ -28,7 +28,7 @@ let level = 0;   // 현재 음량 레벨
 // 사운드 파일을 미리 로딩
 function preload() {
   soundFormats('mp3', 'wav');     // 사용할 사운드 형식
-  sound = loadSound('muji.mp3');  // mp3 파일 불러오기
+  sound = loadSound('./muji.mp3');  // mp3 파일 불러오기
 }
 
 function setup() {
